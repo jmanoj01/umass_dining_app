@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-900 font-sans min-h-screen;
+}
+
+.dark body {
+  @apply bg-maroon text-white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-maroon dark:text-yellow;
+}
+
+a {
+  @apply text-maroon underline hover:text-orange focus:outline-none focus:ring-2 focus:ring-orange;
+}
+
+button, .btn {
+  @apply bg-maroon text-white rounded-lg px-4 py-2 font-semibold shadow hover:bg-orange focus:outline-none focus:ring-2 focus:ring-orange transition;
+}
+
+input, select {
+  @apply border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-maroon bg-white dark:bg-gray-800 dark:text-white;
+}
+
+.card {
+  @apply bg-white dark:bg-gray-200 rounded-xl shadow p-4 mb-4 transition hover:shadow-lg focus-within:ring-2 focus-within:ring-orange;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #eaeaea;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d6d6;
+  border-radius: 4px;
+}
