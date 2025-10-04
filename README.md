@@ -1,7 +1,5 @@
 # UMass Dining Recommendation Engine
 
-# UMass Dining Recommender System
-
 A full-stack application that provides personalized dining recommendations for UMass students.
 
 ## Prerequisites
